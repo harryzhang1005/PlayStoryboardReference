@@ -13,6 +13,9 @@
 		FA7B59301BBC7B4C005CBB25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7B592E1BBC7B4C005CBB25 /* Main.storyboard */; };
 		FA7B59321BBC7B4C005CBB25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA7B59311BBC7B4C005CBB25 /* Assets.xcassets */; };
 		FA7B59351BBC7B4C005CBB25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7B59331BBC7B4C005CBB25 /* LaunchScreen.storyboard */; };
+		FA7B593E1BBC7DA1005CBB25 /* FirstTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7B593C1BBC7DA1005CBB25 /* FirstTab.storyboard */; settings = {ASSET_TAGS = (); }; };
+		FA7B59411BBC7DBC005CBB25 /* SecondTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7B593F1BBC7DBC005CBB25 /* SecondTab.storyboard */; settings = {ASSET_TAGS = (); }; };
+		FA7B59431BBC7F95005CBB25 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7B59421BBC7F95005CBB25 /* ThirdViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		FA7B59311BBC7B4C005CBB25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA7B59341BBC7B4C005CBB25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA7B59361BBC7B4C005CBB25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA7B593D1BBC7DA1005CBB25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/FirstTab.storyboard; sourceTree = "<group>"; };
+		FA7B59401BBC7DBC005CBB25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SecondTab.storyboard; sourceTree = "<group>"; };
+		FA7B59421BBC7F95005CBB25 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +65,10 @@
 				FA7B59281BBC7B4B005CBB25 /* AppDelegate.swift */,
 				FA7B592A1BBC7B4B005CBB25 /* FirstViewController.swift */,
 				FA7B592C1BBC7B4B005CBB25 /* SecondViewController.swift */,
+				FA7B59421BBC7F95005CBB25 /* ThirdViewController.swift */,
 				FA7B592E1BBC7B4C005CBB25 /* Main.storyboard */,
+				FA7B593F1BBC7DBC005CBB25 /* SecondTab.storyboard */,
+				FA7B593C1BBC7DA1005CBB25 /* FirstTab.storyboard */,
 				FA7B59311BBC7B4C005CBB25 /* Assets.xcassets */,
 				FA7B59331BBC7B4C005CBB25 /* LaunchScreen.storyboard */,
 				FA7B59361BBC7B4C005CBB25 /* Info.plist */,
@@ -125,6 +134,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA7B59351BBC7B4C005CBB25 /* LaunchScreen.storyboard in Resources */,
+				FA7B593E1BBC7DA1005CBB25 /* FirstTab.storyboard in Resources */,
+				FA7B59411BBC7DBC005CBB25 /* SecondTab.storyboard in Resources */,
 				FA7B59321BBC7B4C005CBB25 /* Assets.xcassets in Resources */,
 				FA7B59301BBC7B4C005CBB25 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +150,7 @@
 			files = (
 				FA7B592D1BBC7B4B005CBB25 /* SecondViewController.swift in Sources */,
 				FA7B59291BBC7B4B005CBB25 /* AppDelegate.swift in Sources */,
+				FA7B59431BBC7F95005CBB25 /* ThirdViewController.swift in Sources */,
 				FA7B592B1BBC7B4B005CBB25 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -160,6 +172,22 @@
 				FA7B59341BBC7B4C005CBB25 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FA7B593C1BBC7DA1005CBB25 /* FirstTab.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA7B593D1BBC7DA1005CBB25 /* Base */,
+			);
+			name = FirstTab.storyboard;
+			sourceTree = "<group>";
+		};
+		FA7B593F1BBC7DBC005CBB25 /* SecondTab.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA7B59401BBC7DBC005CBB25 /* Base */,
+			);
+			name = SecondTab.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
